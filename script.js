@@ -1,0 +1,1 @@
+// document.querySelector('#choice').innerText=`You have choosen Bat , Computer choose ${compChoice} and the result is ${resultMsg}`

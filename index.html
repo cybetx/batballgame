@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bat Ball and Stump Game 🎮</h1>
+
+    <!-- Button for Bat -->
+    
+    <button onclick="
+    
+    
+    let randnum=Math.random()*3;
+
+    let compChoice;
+    if(randnum>0 && randnum<=1){
+        compChoice='BAT';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+
+    else if(randnum>1 && randnum<=2){
+        compChoice='BALL🔴';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+        
+    else{
+        compChoice='STUMPS';
+        // console.log(`computer choice is ${compChoice}`)
+     }
+
+     let resultMsg;
+     if(compChoice==='BAT'){
+        resultMsg='Its a tie';
+     }
+     else if(compChoice==='BALL🔴'){
+         resultMsg='You Won!';
+     }
+     else if(compChoice==='STUMPS'){
+        resultMsg='Computer wins!';
+     }
+
+    //  console.log(resultMsg);
+     
+     alert(`You have choosen bat and Comuter Choose ${compChoice} and ${resultMsg}`);
+
+    ">BAT 🏏</button>
+
+
+     <!-- button for ball -->
+
+
+    <button onclick="
+    
+    
+     randnum=Math.random()*3;
+
+     compChoice;
+    if(randnum>0 && randnum<=1){
+        compChoice='BAT';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+
+    else if(randnum>1 && randnum<=2){
+        compChoice='BALL🔴';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+        
+    else{
+        compChoice='STUMPS';
+        // console.log(`computer choice is ${compChoice}`)
+     }
+
+     resultMsg;
+     if(compChoice==='BALL🔴'){
+        resultMsg='Its a tie';
+     }
+     else if(compChoice==='STUMPS'){
+         resultMsg='You Won!';
+     }
+     else if(compChoice==='BAT'){
+        resultMsg='Computer wins!';
+     }
+
+    //  console.log(resultMsg);
+     
+     alert(`You have choosen Ball and Comuter Choose ${compChoice} and ${resultMsg}`);
+
+    ">BALL🔴</button>
+
+       <!-- buttons for stumps -->
+
+    <button onclick="
+    
+    
+     randnum=Math.random()*3;
+
+     compChoice;
+    if(randnum>0 && randnum<=1){
+        compChoice='BAT';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+
+    else if(randnum>1 && randnum<=2){
+        compChoice='BALL🔴';
+        // console.log(`computer choice is ${compChoice}`);
+        }
+        
+    else{
+        compChoice='STUMPS';
+        // console.log(`computer choice is ${compChoice}`)
+     }
+
+      resultMsg;
+     if(compChoice==='STUMPS'){
+        resultMsg='Its a tie';
+     }
+     else if(compChoice==='BAT'){
+         resultMsg='You Won!';
+     }
+     else if(compChoice==='BALL🔴'){
+        resultMsg='Computer wins!';
+     }
+
+    //  console.log(resultMsg);
+     
+     alert(`You have choosen Stumps and Comuter Choose ${compChoice} and ${resultMsg}`);
+
+    ">STUMP|||</button>
+
+    <h2 id="choose"></h2>
+    
+
+    
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
